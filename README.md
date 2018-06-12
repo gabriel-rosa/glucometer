@@ -16,6 +16,7 @@ If you compile and run the project you'll get a lot of debug messages printed to
 # TODO
 
 - [x] Push initial commits to github
+- [ ] Check if glib is actually necessary for synchronous use of libusb
 - [ ] Implement a simple GUI (with imgui)
 - [ ] Implement user profiles, saving/loading data
 - [ ] Implement graphing and report generation
