@@ -7,6 +7,22 @@ Glucometer aims to provide just that: a free and open-source option for those wh
 
 # Current state
 
+Currently glucometer is in its very early stages of development. It's being developed with portability in mind, but so far it's only been tested on Windows 10 x64.
+
+If you compile and run the project you'll get a lot of debug messages printed to your console. If a blood glucose meter is connected to a USB port on your computer and **it's using WinUSB as a driver** (check out https://github.com/pbatard/libwdi/wiki/Zadig for more information on this step), glucometer will attempt to retrieve measurement data from the device and display it as shown below.
+
+![Glucometer](glucometer.jpg)
+
 # TODO
 
+- [x] Push initial commits to github
+- [ ] Implement a simple GUI (with imgui)
+- [ ] Implement user profiles, saving/loading data
+- [ ] Implement graphing and report generation
+- [ ] Start using CMake
+- [ ] Work on portability
+
 # Requirements
+
+- libusb (+ glib)
+- imgui
