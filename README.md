@@ -27,3 +27,6 @@ If you compile and run the project you'll get a lot of debug messages printed to
 
 - libusb (+ glib)
 - imgui
+
+# Acknowledgement
+- A lot of the lower level stuff was based on https://github.com/signove/antidote
